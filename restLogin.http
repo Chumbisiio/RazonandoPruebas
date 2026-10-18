@@ -1,0 +1,11 @@
+@baseUrl = http://localhost:8080
+@email = estprueba@gmail.com
+@password = habiaunaiguana
+
+POST {{baseUrl}}/auth/login
+Content-Type: application/json
+
+{
+    "email": "{{email}}",
+    "password": "{{password}}"
+}

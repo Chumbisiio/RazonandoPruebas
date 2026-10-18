@@ -1,0 +1,1 @@
+ALTER TABLE public.topic RENAME TO topics;

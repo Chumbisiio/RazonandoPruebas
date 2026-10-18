@@ -1,0 +1,19 @@
+@baseUrl = http://localhost:8080
+@documentType = TI
+@idNumber = 1000654876
+@names = Estudiante
+@surNames = Registro Prueba
+@email = estudiante@gmail.com
+@password = Habiaunaiguana1?
+
+POST {{baseUrl}}/auth/register
+Content-Type: application/json
+
+{
+    "documentType": "{{documentType}}",
+    "idNumber": "{{idNumber}}",
+    "names": "{{names}}",
+    "surNames": "{{surNames}}",
+    "email": "{{email}}",
+    "password": "{{password}}",
+}
